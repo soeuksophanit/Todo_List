@@ -1,0 +1,140 @@
+/* google font : Inter  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;600");
+/* ------------------------ */
+
+/* font awesome  */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+/* --------------------------  */
+
+:root {
+  --root-font: 62.5%;
+  --light-black-bg: #393939;
+  --bg-color: #fcc8b5;
+  --odd-list-bg: #7891d3;
+  --even-list-bg: #ffaab4;
+  --bg-list-done: #ececec;
+  --white-color: #fdfdfd;
+  --font-family: "Inter", sans-serif;
+  --big-title: 4.8rem;
+  --small-title: 2.6rem;
+  --normal-text: 1.6rem;
+  --xs-text: 1.2rem;
+  --big-weight: 600;
+  --small-weight: 500;
+  --normal-weight: 400;
+  --xs-weight: 200;
+  --radius: 0.3rem;
+  --gap: 1.6rem;
+  --margin-y: 2.6rem;
+  --width: 55rem;
+}
+
+/* reset default  */
+html {
+  font-size: var(--root-font);
+  font-family: var(--font-family);
+}
+
+#root {
+  width: 100%;
+}
+
+button,
+input {
+  border: none;
+  background-color: unset;
+}
+
+body {
+  background-image: url("../../images/1900s.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  background-attachment: fixed;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+i {
+  font-size: var(--normal-text);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+/* margin  */
+.margin-y {
+  margin: 2.6rem 0;
+}
+
+/* ---------------------------  */
+.color-black {
+  color: var(--light-black-bg);
+}
+
+.white-color {
+  color: var(--white-color);
+}
+
+.big-title {
+  font-size: var(--big-title);
+  font-weight: var(--big-weight);
+}
+
+.small-title {
+  font-size: var(--small-title);
+  font-weight: var(--small-weight);
+}
+
+.normal-title {
+  font-size: var(--normal-text);
+}
+
+.xs-title {
+  font-size: var(--xs-text);
+  font-weight: var(--xs-weight);
+}
+
+.flex {
+  display: flex;
+}
+
+.gap {
+  gap: var(--gap);
+}
+
+.center-x-y {
+  align-items: center;
+  justify-content: center;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* media query  */
+@media (max-width: 58rem) {
+  .normal-title {
+    font-size: 2.2rem;
+  }
+
+  i {
+    font-size: 2.4rem;
+  }
+
+  .btn {
+    padding: 0.8rem 1.3rem;
+  }
+}

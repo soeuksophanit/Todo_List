@@ -1,0 +1,23 @@
+/* btn for all  */
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1.2rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-weight: var(--small-weight);
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:active {
+  transform: translateY(0.5rem);
+}
+
+.btn-primary {
+  background-color: var(--light-black-bg);
+  color: var(--white-color);
+}
+
+.border {
+  border: 0.05rem solid var(--light-black-bg);
+}

@@ -1,0 +1,26 @@
+.todo-items li {
+  padding: 1.5rem 1rem;
+  border-radius: var(--radius);
+}
+
+.todo-items li:nth-child(odd) {
+  background-color: var(--odd-list-bg);
+}
+
+.todo-items li:nth-child(even) {
+  background-color: var(--even-list-bg);
+}
+
+.todo-items li.is-done {
+  background-color: var(--bg-list-done);
+}
+
+.todo-items li.is-done p {
+  text-decoration: line-through;
+  color: var(--light-black-bg);
+}
+
+.todo-items li.is-done i {
+  color: var(--light-black-bg);
+  text-decoration: none;
+}

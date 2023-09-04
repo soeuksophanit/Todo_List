@@ -1,0 +1,7 @@
+#form-search {
+  grid-template-columns: 1fr auto;
+}
+
+#form-search input {
+  width: 100%;
+}
